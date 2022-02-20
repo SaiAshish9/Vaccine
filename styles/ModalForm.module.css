@@ -1,0 +1,10 @@
+.modalBody {
+  max-width: 90vw;
+  max-height: 60vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.body ::-webkit-scrollbar{
+  display: none;
+}

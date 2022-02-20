@@ -1,0 +1,163 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .btn {
+  background-color: #1850ab;
+  padding: 1rem;
+  font-weight: 500 !important;
+  width: 9rem;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2rem;
+} */
+
+.btn {
+  /* margin: 2rem 0 !important; */
+  padding: 0.6rem 1rem;
+  color: white;
+  font-weight: 500;
+  border-radius: 10px;
+  background-color: #4169bf;
+  outline: none;
+  border: none;
+  /* cursor: pointer; */
+  box-shadow: 0px 0px 4px #eee;
+}
+
+.tag {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0.8rem 0;
+  padding: 0px;
+}
+
+.input {
+  border: none;
+  outline: none;
+  background: #f9f9f9;
+  margin: 0px;
+  padding: 0.8rem;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 0px 2px 1px #eee;
+}
+
+.input1 {
+  border: none;
+  outline: none;
+  background: #f9f9f9;
+  margin: 0px;
+  padding: 0.8rem;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 0 0 4px red;
+}
+
+.circle {
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #4168bf;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.circleCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 900px) {
+  .circleCont,
+  .box1 {
+    flex-direction: column !important;
+  }
+
+  .label1{
+    margin-top: -1.5rem;
+  }
+
+  .box {
+    /* min-height: 110vh !important; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100% !important;
+    padding-bottom: 1rem;
+  }
+
+  .circleCont {
+    margin-bottom: 2rem;
+  }
+}
+
+.box {
+  width: 579px;
+  min-height: 500px;
+  background-color: #fff;
+  position: relative;
+  z-index: 3;
+  padding: 1.5rem;
+}
+
+.cont {
+  width: 48.6%;
+  margin: 1rem 0;
+}
+
+.content {
+  width: 60rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* .inp {
+  margin: none;
+  padding: none;
+  font-size: 14px;
+  opacity: 0.6;
+} */
+
+/* .tf {
+  outline: none;
+  border: none;
+  margin-top: 2.7%;
+}
+
+ */
+
+.title {
+  text-align: center;
+  margin: 9vh 0 2rem;
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 1000px) {
+  .content {
+    width: 90%;
+    justify-content: center;
+  }
+  .cont {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+  .title {
+    margin: 1.5rem 0;
+  }
+}

@@ -1,0 +1,128 @@
+@media only screen and (max-width: 1450px) {
+  .content {
+    width: 20rem;
+    margin: 30vh 10%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .content {
+    width: 90vw;
+    margin: 29vh 5%;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .contentFAQ {
+    width: 30rem;
+    margin: 26vh 10%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .contentFAQ {
+    width: 90vw;
+    margin: 25vh 5%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .mrow {
+    display: none !important;
+  }
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  margin: 6rem auto 2rem;
+  padding: 1.5rem 0;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #dddddd;
+}
+
+.circle {
+  background-color: #ededed;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.icon{
+  width: 100%;
+}
+
+@media only screen and (max-width:920px){
+  .icon{
+    width: 70%;
+  }
+}
+
+.desc {
+  font-size: 14;
+  text-align: left;
+  font-weight: 500;
+}
+
+.content {
+  margin: 31vh 10%;
+  display: flex;
+  min-width: 36rem;
+  max-width: 36rem;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+@media only screen and (max-width: 920px) {
+  .row {
+    display: none !important;
+  }
+
+  .mrow {
+    padding: 5%;
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .box {
+    flex-direction: column;
+    padding-bottom: 3rem;
+  }
+
+  .img {
+    width: 90% !important;
+    margin: 1rem auto 4rem;
+  }
+
+  .title {
+    font-size: 32px !important;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .circle {
+    margin: 2rem 0 0;
+  }
+}
+
+.title {
+  font-size: 45px;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  width: 40vw;
+}

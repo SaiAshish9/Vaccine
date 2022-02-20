@@ -1,0 +1,68 @@
+.tag {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 1.8rem 0;
+  padding: 0px;
+}
+
+.input {
+  border: none;
+  outline: none;
+  background: #f9f9f9;
+  margin: 0px;
+  padding: 0.8rem;
+  border-radius: 10px;
+  width: 50vw;
+  box-shadow: 0px 2px 1px #eee;
+}
+
+.input1{
+  border: none;
+  outline: none;
+  background: #f9f9f9;
+  margin: 0px;
+  padding: 0.8rem;
+  border-radius: 10px;
+  width: 50vw;
+  box-shadow: 0 0 4px red;
+}
+
+@media only screen and (max-width:900px){
+  .cont{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .input,.input1{
+    width: 100%;
+  }
+}
+
+.dropDown {
+  width: 100%;
+  background: #fff;
+  height: 30vh;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  border: 1px solid #f9f9f9;
+  border-radius: 5;
+  box-shadow: 0px 0px 4px #eee;
+  padding: 0.8rem;
+  overflow: scroll;
+}
+
+.dropDown::-webkit-scrollbar {
+  display: none;
+}
+
+.btn {
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-weight: 500;
+  border-radius: 10px;
+  background-color: #4169bf;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 4px #eee;
+}

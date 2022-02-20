@@ -1,0 +1,27 @@
+.loadingDiv {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(230, 240, 237);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 0 10vw;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+}
+
+.img {
+  width: 20rem;
+  margin-top: 45vh;
+}
+
+@media only screen and (max-width: 900px) {
+  .img {
+    width: 13.5rem;
+    margin-top: 40vh;
+  }
+}

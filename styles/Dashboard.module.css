@@ -1,0 +1,149 @@
+.container {
+  background: #fff;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.drawer {
+  width: 15%;
+  background: #edf0f7 0% 0% no-repeat padding-box;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 0;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 900px) {
+  .drawer {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .nav {
+    display: none;
+  }
+}
+
+.linkText {
+  font: normal normal bold 16px/25px Poppins;
+  letter-spacing: 0px;
+  color: #073bab;
+  padding: 2px;
+  margin-left: 0.6rem;
+}
+
+.linkText1 {
+  font: normal normal medium 16px/25px Poppins;
+  letter-spacing: 0px;
+  color: #76787b;
+  font-weight: 500;
+  opacity: 0.5;
+  padding: 2px;
+  margin-left: 0.6rem;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  width: 100%;
+}
+
+.text {
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.5;
+  font-weight: 600;
+  margin: 0px;
+  margin-left: 0.6rem;
+}
+
+.content {
+  width: 85%;
+  padding: 2.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.table {
+  background: #fcfdff;
+  box-shadow: 0px 0px 28px #353c6414;
+  border-radius: 17px;
+  opacity: 1;
+  width: 70vw;
+  height: 70vh;
+}
+
+.filter {
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2.7rem 0 2rem;
+  align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .filter {
+    justify-content: center;
+  }
+
+  .container{
+    min-height: 100vh !important;
+  }
+
+  .table {
+    width: 80vw;
+    overflow-x: scroll;
+    min-height: 70vh;
+    margin-bottom: 2rem  !important;
+  }
+
+  .input,
+  .input1 {
+    width: 80vw !important;
+    margin-bottom: 1rem;
+  }
+}
+
+.input {
+  border: none;
+  outline: none;
+  background: #f9f9f9;
+  padding: 0.8rem;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 0px 2px 1px #eee;
+}
+
+.input1 {
+  border: none;
+  outline: none;
+  background: #f9f9f9;
+  margin: 0px;
+  padding: 0.8rem;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 0 0 4px red;
+}
+
+.btn {
+  padding: 0.7rem 2rem;
+  color: white;
+  font-weight: 500;
+  border-radius: 10px;
+  background-color: #4169bf;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 4px #eee;
+  position: relative;
+}

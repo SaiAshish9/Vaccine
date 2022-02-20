@@ -1,0 +1,25 @@
+.box {
+  width: 60vw;
+  height: 60vh;
+  padding: 2rem;
+}
+
+@media only screen and (max-width:980px){
+  .box{
+    width: 96vw;
+  }
+}
+
+.btn1 {
+    margin: 2rem auto 0;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-weight: 500;
+    width: 10rem;
+    border-radius: 10px;
+    background-color: #4169bf;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 4px #eee;
+  }
+  

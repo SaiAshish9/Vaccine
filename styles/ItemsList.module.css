@@ -1,0 +1,28 @@
+.itemsContainer {
+  height: 70vh;
+  overflow-y: scroll;
+}
+
+.itemDiv {
+  -moz-box-shadow: 0 0 7px #ccc;
+  -webkit-box-shadow: 0 0 7px #ccc;
+  box-shadow: 0 0 7px #ccc;
+  margin-top: 5px;
+}
+
+.priceCol {
+  text-align: start;
+}
+
+.alignIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.noItemFound {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

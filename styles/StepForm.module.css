@@ -1,0 +1,132 @@
+.bar {
+  width: 100%;
+  height: 60px;
+  background: #edf0f7 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .line,.cont{
+    width: 85% !important;
+  }
+  .bar{
+    padding: 0 1.7rem;
+  }
+  .cont{
+    margin-top: -1.5rem !important;
+  }
+}
+
+.circle {
+  width: 38px;
+  height: 38px;
+  background: #073bab 0% 0% no-repeat padding-box;
+  border: 1px solid #073bab;
+  border-radius: 50%;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-weight: 500;
+  position: relative;
+  z-index: 2;
+}
+
+.input {
+  border: none;
+  outline: none;
+  background: #f9f9f9;
+  margin: 2rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 0px 2px 1px #eee;
+}
+
+
+.upload {
+  background: #f9f9f9;
+  margin-bottom: 3rem;
+  height: 10rem;
+  margin: 2.5rem 0 3rem;
+  border-radius: 10px;
+  width: 40%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 2px 1px #eee;
+}
+
+.btn {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-weight: 500;
+  border-radius: 10px;
+  background-color: #4169bf;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 4px #eee;
+}
+
+.input1 {
+  border: none;
+  outline: none;
+  background: #f9f9f9;
+  margin: 2rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  width: 100%;
+  box-shadow: 0 0 4px red;
+}
+
+.label {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.circle1 {
+  width: 38px;
+  height: 38px;
+  background: #e2e5eb 0% 0% no-repeat padding-box;
+  border: 1px solid #e2e5eb;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #868d9b;
+  font-weight: 500;
+  position: relative;
+  z-index: 2;
+}
+
+.cont {
+  width: 746px;
+  margin-top: 1rem;
+}
+
+.center-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 746px;
+}
+
+.line {
+  border: 1px solid #bbc1cc;
+  width: 746px;
+  position: absolute;
+  margin: 0 auto;
+  z-index: 1;
+}
